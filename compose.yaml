@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+  redis:
+    image: "public.ecr.aws/docker/library/redis:alpine"
